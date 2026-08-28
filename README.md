@@ -1,14 +1,14 @@
-# Obsidian-property-cache-fix
-temporarly Performance fix for large Vaults in Obsidian via community Plugin
-this is ment the Obsidian dev-Team only!
+# Obsidian-property-cache-fix  
+temporarly Performance fix for large Vaults in Obsidian via community Plugin  
+this is ment the Obsidian dev-Team only!  
 
-Please note, i am not a programmer at all. The cause of this problem was found after giving everything else a try (Network, SMB share, windows, Ethernet settings,..)
-It took about 2 days to find the solution and with help of ai i made this little "plugin"
+Please note, i am not a programmer at all. The cause of this problem was found after giving everything else a try (Network, SMB share, windows, Ethernet settings,..)  
+It took about 2 days to find the solution and with help of ai i made this little "plugin"  
 
-Like you said its better to build these things at core level rather than as plugin.
-metadataTypeManager and "finished"-event are internal, so i could get a use of it. Instead Metadatacached.changed
+Like you said its better to build these things at core level rather than as plugin.  
+metadataTypeManager and "finished"-event are internal, so i could get a use of it. Instead Metadatacached.changed  
 
-Tested circumstances:
+Tested circumstances:  
 
 1-2min normal typing in a Markdown files      0x property refresh  
 add property                                  1x full refresh(~200ms)  
