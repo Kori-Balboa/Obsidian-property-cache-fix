@@ -1,6 +1,6 @@
 # Obsidian-property-cache-fix  
 temporarly Performance fix for large Vaults in Obsidian via community Plugin  
-this is ment the Obsidian dev-Team only!  
+this is ment for the Obsidian dev-Team only!  
 
 Please note, i am not a programmer at all. The cause of this problem was found after giving everything else a try (Network, SMB share, windows, Ethernet settings,..)  
 It took about 2 days to find the solution and with help of ai i made this little "plugin"  
