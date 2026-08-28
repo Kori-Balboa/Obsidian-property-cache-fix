@@ -1,0 +1,9 @@
+{
+  "id": "property-cache-fix",
+  "name": "Property Cache Fix",
+  "version": "0.1.0",
+  "minAppVersion": "1.13.0",
+  "description": "Prevents unnecessary full-vault property cache rescans after ordinary note autosaves.",
+  "author": "Local",
+  "isDesktopOnly": true
+}
