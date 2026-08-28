@@ -6,7 +6,7 @@ Please note, i am not a programmer at all. The cause of this problem was found a
 It took about 2 days to find the solution and with help of ai i made this little "plugin"  
 
 Like you said its better to build these things at core level rather than as plugin.  
-metadataTypeManager and "finished"-event are internal, so i could get a use of it. Instead Metadatacached.changed  
+metadataTypeManager and "finished"-event are internal, so i couldnt get a use of it. Instead Metadatacached.changed  
 
 Tested circumstances:  
 
